@@ -98,6 +98,10 @@ namespace k06_KararYapilari
             {
                 MessageBox.Show("Kullancı Adınız ve Şifreniz Hatalı");
             }
+            if (chbBeniHatirla.Checked)
+            {
+                MessageBox.Show("Beni Hatırla İşaretlendi");
+            }
         }
     }
 }
