@@ -34,24 +34,26 @@ namespace k06_KararYapilari
             this.label2 = new System.Windows.Forms.Label();
             this.txtFinal = new System.Windows.Forms.TextBox();
             this.btnHesapla = new System.Windows.Forms.Button();
-            this.txtSonuc = new System.Windows.Forms.TextBox();
-            this.Sonuc = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblOrtalama = new System.Windows.Forms.Label();
+            this.lblHarfNotu = new System.Windows.Forms.Label();
+            this.lblDurum = new System.Windows.Forms.Label();
+            this.lblOrtalama1 = new System.Windows.Forms.Label();
+            this.lblHarfNotu1 = new System.Windows.Forms.Label();
+            this.lblDurum1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(39, 13);
+            this.label1.Location = new System.Drawing.Point(14, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.Size = new System.Drawing.Size(62, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Vize Notu";
+            this.label1.Text = "Vize Notu  :";
             // 
             // txtVize
             // 
-            this.txtVize.Location = new System.Drawing.Point(42, 39);
+            this.txtVize.Location = new System.Drawing.Point(82, 32);
             this.txtVize.Name = "txtVize";
             this.txtVize.Size = new System.Drawing.Size(100, 20);
             this.txtVize.TabIndex = 1;
@@ -59,22 +61,22 @@ namespace k06_KararYapilari
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 83);
+            this.label2.Location = new System.Drawing.Point(14, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 13);
+            this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Final Notu";
+            this.label2.Text = "Final Notu :";
             // 
             // txtFinal
             // 
-            this.txtFinal.Location = new System.Drawing.Point(42, 119);
+            this.txtFinal.Location = new System.Drawing.Point(82, 56);
             this.txtFinal.Name = "txtFinal";
             this.txtFinal.Size = new System.Drawing.Size(100, 20);
             this.txtFinal.TabIndex = 3;
             // 
             // btnHesapla
             // 
-            this.btnHesapla.Location = new System.Drawing.Point(54, 165);
+            this.btnHesapla.Location = new System.Drawing.Point(82, 82);
             this.btnHesapla.Name = "btnHesapla";
             this.btnHesapla.Size = new System.Drawing.Size(75, 23);
             this.btnHesapla.TabIndex = 4;
@@ -82,50 +84,70 @@ namespace k06_KararYapilari
             this.btnHesapla.UseVisualStyleBackColor = true;
             this.btnHesapla.Click += new System.EventHandler(this.btnHesapla_Click);
             // 
-            // txtSonuc
+            // lblOrtalama
             // 
-            this.txtSonuc.Location = new System.Drawing.Point(42, 226);
-            this.txtSonuc.Name = "txtSonuc";
-            this.txtSonuc.Size = new System.Drawing.Size(100, 20);
-            this.txtSonuc.TabIndex = 5;
-            this.txtSonuc.TextChanged += new System.EventHandler(this.txtSonuc_TextChanged);
+            this.lblOrtalama.AutoSize = true;
+            this.lblOrtalama.Location = new System.Drawing.Point(17, 136);
+            this.lblOrtalama.Name = "lblOrtalama";
+            this.lblOrtalama.Size = new System.Drawing.Size(61, 13);
+            this.lblOrtalama.TabIndex = 5;
+            this.lblOrtalama.Text = "Ortalama   :";
+            this.lblOrtalama.Click += new System.EventHandler(this.lblOrtalama_Click);
             // 
-            // Sonuc
+            // lblHarfNotu
             // 
-            this.Sonuc.AutoSize = true;
-            this.Sonuc.Location = new System.Drawing.Point(51, 210);
-            this.Sonuc.Name = "Sonuc";
-            this.Sonuc.Size = new System.Drawing.Size(61, 13);
-            this.Sonuc.TabIndex = 6;
-            this.Sonuc.Text = "Sonucunuz";
+            this.lblHarfNotu.AutoSize = true;
+            this.lblHarfNotu.Location = new System.Drawing.Point(17, 164);
+            this.lblHarfNotu.Name = "lblHarfNotu";
+            this.lblHarfNotu.Size = new System.Drawing.Size(62, 13);
+            this.lblHarfNotu.TabIndex = 6;
+            this.lblHarfNotu.Text = "Harf Notu  :";
             // 
-            // label3
+            // lblDurum
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(212, 210);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "label3";
+            this.lblDurum.AutoSize = true;
+            this.lblDurum.Location = new System.Drawing.Point(17, 191);
+            this.lblDurum.Name = "lblDurum";
+            this.lblDurum.Size = new System.Drawing.Size(62, 13);
+            this.lblDurum.TabIndex = 7;
+            this.lblDurum.Text = "Durum       :";
             // 
-            // label4
+            // lblOrtalama1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(215, 232);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "label4";
+            this.lblOrtalama1.AutoSize = true;
+            this.lblOrtalama1.Location = new System.Drawing.Point(97, 136);
+            this.lblOrtalama1.Name = "lblOrtalama1";
+            this.lblOrtalama1.Size = new System.Drawing.Size(0, 13);
+            this.lblOrtalama1.TabIndex = 8;
+            this.lblOrtalama1.Click += new System.EventHandler(this.lblOrtalama1_Click);
+            // 
+            // lblHarfNotu1
+            // 
+            this.lblHarfNotu1.AutoSize = true;
+            this.lblHarfNotu1.Location = new System.Drawing.Point(100, 164);
+            this.lblHarfNotu1.Name = "lblHarfNotu1";
+            this.lblHarfNotu1.Size = new System.Drawing.Size(0, 13);
+            this.lblHarfNotu1.TabIndex = 9;
+            // 
+            // lblDurum1
+            // 
+            this.lblDurum1.AutoSize = true;
+            this.lblDurum1.Location = new System.Drawing.Point(100, 191);
+            this.lblDurum1.Name = "lblDurum1";
+            this.lblDurum1.Size = new System.Drawing.Size(0, 13);
+            this.lblDurum1.TabIndex = 10;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(309, 264);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.Sonuc);
-            this.Controls.Add(this.txtSonuc);
+            this.Controls.Add(this.lblDurum1);
+            this.Controls.Add(this.lblHarfNotu1);
+            this.Controls.Add(this.lblOrtalama1);
+            this.Controls.Add(this.lblDurum);
+            this.Controls.Add(this.lblHarfNotu);
+            this.Controls.Add(this.lblOrtalama);
             this.Controls.Add(this.btnHesapla);
             this.Controls.Add(this.txtFinal);
             this.Controls.Add(this.label2);
@@ -133,6 +155,7 @@ namespace k06_KararYapilari
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,9 +168,11 @@ namespace k06_KararYapilari
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtFinal;
         private System.Windows.Forms.Button btnHesapla;
-        private System.Windows.Forms.TextBox txtSonuc;
-        private System.Windows.Forms.Label Sonuc;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblOrtalama;
+        private System.Windows.Forms.Label lblHarfNotu;
+        private System.Windows.Forms.Label lblDurum;
+        private System.Windows.Forms.Label lblOrtalama1;
+        private System.Windows.Forms.Label lblHarfNotu1;
+        private System.Windows.Forms.Label lblDurum1;
     }
 }
