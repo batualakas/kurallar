@@ -124,6 +124,11 @@ KARAR YAPILARI : Programın akışını belli bir koşula göre yönlendirmek is
         
         }
 
+        private void txtAd_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         // Kullanıcıdan alınan sayının tek mi çift mi olduğunu bularak ekran bilgi veren uygulamayı yazınız
 
     }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k05_HataYonetimi", "k05_Hat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k06_KararYapilari", "k06_KararYapilari\k06_KararYapilari.csproj", "{86F4FFC1-99CB-4AD8-A113-0CCF2D344F0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k07_Donguler", "k07_Donguler\k07_Donguler.csproj", "{FB933E40-8637-47EB-BAB7-126BC7487433}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{86F4FFC1-99CB-4AD8-A113-0CCF2D344F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86F4FFC1-99CB-4AD8-A113-0CCF2D344F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86F4FFC1-99CB-4AD8-A113-0CCF2D344F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB933E40-8637-47EB-BAB7-126BC7487433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB933E40-8637-47EB-BAB7-126BC7487433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB933E40-8637-47EB-BAB7-126BC7487433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB933E40-8637-47EB-BAB7-126BC7487433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
