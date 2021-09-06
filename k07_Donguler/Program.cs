@@ -16,7 +16,10 @@ namespace k07_Donguler
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new ForDongusu());
+            //Application.Run(new WhileDongusu());
+            // Application.Run(new DoWhileDongusu());
+            Application.Run(new ForeachDongusu());
         }
     }
 }

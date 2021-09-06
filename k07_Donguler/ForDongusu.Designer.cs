@@ -1,7 +1,7 @@
 ﻿
 namespace k07_Donguler
 {
-    partial class Form1
+    partial class ForDongusu
     {
         /// <summary>
         /// Required designer variable.
@@ -48,6 +48,9 @@ namespace k07_Donguler
             this.button9 = new System.Windows.Forms.Button();
             this.lblYaziTahtasi = new System.Windows.Forms.Label();
             this.txtYaziTahtasi = new System.Windows.Forms.TextBox();
+            this.btnContinue = new System.Windows.Forms.Button();
+            this.btnBreakKurali = new System.Windows.Forms.Button();
+            this.btnReturn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstSonuc
@@ -238,11 +241,47 @@ namespace k07_Donguler
             this.txtYaziTahtasi.Size = new System.Drawing.Size(100, 20);
             this.txtYaziTahtasi.TabIndex = 18;
             // 
+            // btnContinue
+            // 
+            this.btnContinue.Location = new System.Drawing.Point(15, 369);
+            this.btnContinue.Name = "btnContinue";
+            this.btnContinue.Size = new System.Drawing.Size(314, 23);
+            this.btnContinue.TabIndex = 19;
+            this.btnContinue.Text = "11-) Continue Kuralı";
+            this.btnContinue.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnContinue.UseVisualStyleBackColor = true;
+            this.btnContinue.Click += new System.EventHandler(this.btnContinue_Click);
+            // 
+            // btnBreakKurali
+            // 
+            this.btnBreakKurali.Location = new System.Drawing.Point(15, 399);
+            this.btnBreakKurali.Name = "btnBreakKurali";
+            this.btnBreakKurali.Size = new System.Drawing.Size(314, 23);
+            this.btnBreakKurali.TabIndex = 20;
+            this.btnBreakKurali.Text = "12-) Break kuralı";
+            this.btnBreakKurali.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnBreakKurali.UseVisualStyleBackColor = true;
+            this.btnBreakKurali.Click += new System.EventHandler(this.btnBreakKurali_Click);
+            // 
+            // btnReturn
+            // 
+            this.btnReturn.Location = new System.Drawing.Point(15, 429);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(315, 23);
+            this.btnReturn.TabIndex = 21;
+            this.btnReturn.Text = "13-) Return";
+            this.btnReturn.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(737, 530);
+            this.Controls.Add(this.btnReturn);
+            this.Controls.Add(this.btnBreakKurali);
+            this.Controls.Add(this.btnContinue);
             this.Controls.Add(this.txtYaziTahtasi);
             this.Controls.Add(this.lblYaziTahtasi);
             this.Controls.Add(this.button9);
@@ -291,6 +330,9 @@ namespace k07_Donguler
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label lblYaziTahtasi;
         private System.Windows.Forms.TextBox txtYaziTahtasi;
+        private System.Windows.Forms.Button btnContinue;
+        private System.Windows.Forms.Button btnBreakKurali;
+        private System.Windows.Forms.Button btnReturn;
     }
 }
 

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace k07_Donguler
 {
-    public partial class Form1 : Form
+    public partial class ForDongusu : Form
     {
         /*
          Döngüler
@@ -33,7 +33,7 @@ namespace k07_Donguler
          */
 
 
-        public Form1()
+        public ForDongusu()
         {
             InitializeComponent();
         }
@@ -154,8 +154,8 @@ namespace k07_Donguler
         {
             string sectigiYil = "";
             sectigiYil = cmbYillar.SelectedIndex.ToString();
-                
-            if (cmbYillar.SelectedIndex == 1  )
+            lstSonuc.Items.Clear();
+            if (cmbYillar.SelectedIndex != - 1  )
             {
                 var secilenYil = cmbYillar.SelectedItem;
                 txtSecilenYil.Text = secilenYil.ToString();
@@ -231,10 +231,57 @@ namespace k07_Donguler
                 {
                     lblYaziTahtasi.Text += "X";
                 }
-               
+                
                
             }
 
+        }
+
+        private void btnContinue_Click(object sender, EventArgs e)
+        {
+            // Döngüde bazı durumlarda o anki iterasyonun atlanıp sonraki iterasyonlardan devam etmesini sağlar.
+
+            // 1-30'a kadar sayıları ekrana yazdırmak istiyoruz ancak 8'in katı olan sayıların yazılmasını istemiyoruz.
+
+            for(int i =1; i <=30; i ++)
+            {
+                if (i % 8 == 0)
+                {
+                    continue;
+                }
+                lstSonuc.Items.Add(i);
+            }
+        }
+
+        private void btnBreakKurali_Click(object sender, EventArgs e)
+        {
+            // belli bir koşul sağlandığında döngünün çalışmasını durdurmak için break kullanılır.
+            // döngüden çıktıktan sonra kodlar varsa onlar çalışır. çünkü break komutu sadece döngünün sonlanmasını sağlar
+           // 1-30 arasındaki sayıları yazdıralım, 9 un katı olan ilk sayıyı bulduğunda döngünde çıkılsın.
+            for (int i = 1; i <= 30; i++)
+            {
+                if (i  %4 == 0)
+                {
+                    break;
+                }
+                lstSonuc.Items.Add(i);
+            }
+
+            MessageBox.Show("döngüden çıkıldı");
+        }
+
+        private void btnReturn_Click(object sender, EventArgs e)
+        {
+            //Return komutu döngüden ve içinde bulunulan metottan çıkılması için kullanılır. döngüden sonra kod parçaları varsa bunlar çalışmaz.
+            for (int i = 1; i <= 30; i++)
+            {
+                if (i % 4 == 0)
+                {
+                    return;
+                }
+                lstSonuc.Items.Add(i);
+            }
+            MessageBox.Show("döngüden çıkıldı. mesaj kutusu açılmayacak ve buradaki mesaj görünmeyecek.");
         }
     }
 }
