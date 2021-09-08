@@ -26,7 +26,7 @@ namespace k08_Diziler
             
             var sifre = txtSifre.Text;
             var sifre2 = txtSifreTekrar.Text;
-            int[] semboller = new int[15];
+            
             var buyukHarfVarMi = false;
             var kucukHarfVarMi = false;
             var rakamVarMi = false;
@@ -60,8 +60,6 @@ namespace k08_Diziler
                 {
                     sembolVarmi = true;
                 }
-              
-                
                 
             }
 
