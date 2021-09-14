@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k09_ArraySinifi", "k09_Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k10_EkranKoruyucu", "k10_EkranKoruyucu\k10_EkranKoruyucu.csproj", "{E430471C-A2F3-4E32-AEA9-A8DCB252FBA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k11_Fonksiyonlar", "k11_MatematikFonksiyonları\k11_Fonksiyonlar.csproj", "{DF484CF9-A3B8-46F7-A2E7-4CAE4E9F7C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k12_Metotlar", "k11_Metotlar\k12_Metotlar.csproj", "{75ADE338-5BBF-46B6-BFBB-25AFF3B9D0F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{E430471C-A2F3-4E32-AEA9-A8DCB252FBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E430471C-A2F3-4E32-AEA9-A8DCB252FBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E430471C-A2F3-4E32-AEA9-A8DCB252FBA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF484CF9-A3B8-46F7-A2E7-4CAE4E9F7C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF484CF9-A3B8-46F7-A2E7-4CAE4E9F7C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF484CF9-A3B8-46F7-A2E7-4CAE4E9F7C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF484CF9-A3B8-46F7-A2E7-4CAE4E9F7C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75ADE338-5BBF-46B6-BFBB-25AFF3B9D0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75ADE338-5BBF-46B6-BFBB-25AFF3B9D0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75ADE338-5BBF-46B6-BFBB-25AFF3B9D0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75ADE338-5BBF-46B6-BFBB-25AFF3B9D0F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
