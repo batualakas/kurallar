@@ -52,6 +52,7 @@ namespace k05_HataYonetimi
             this.lbl1.Size = new System.Drawing.Size(73, 13);
             this.lbl1.TabIndex = 1;
             this.lbl1.Text = "Bir Sayı Giriniz";
+            this.lbl1.Click += new System.EventHandler(this.lbl1_Click);
             // 
             // lbl2
             // 

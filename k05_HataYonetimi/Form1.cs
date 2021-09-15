@@ -38,7 +38,7 @@ namespace k05_HataYonetimi
             {
                 // dışarıdan bir sayıya ulaşmam lazım
                 var girilenSayi = txtSayiKutusu.Text;
-                // Covert etmemiz lazım
+                // Convert etmemiz lazım
                 var sayi = Convert.ToInt32(girilenSayi);
                 // karesini alınız
                 var karesi = sayi * sayi;
@@ -69,6 +69,11 @@ namespace k05_HataYonetimi
         }
 
         private void txtSayiKutusu_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl1_Click(object sender, EventArgs e)
         {
 
         }
